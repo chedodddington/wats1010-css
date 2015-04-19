@@ -1,6 +1,60 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+header.page-header{
+	position: relative;
+	bottom: -250px;	
+}
+.page-header h1 {
+	font-size: 65px;
+	margin-bottom: 0;
+}
+.page-header p {
+	margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: verdana;
+	color: grey;
+}
+
+body {
+	background-color: lightblue;
+	font-family: georgia;
+}
+aside {
+	text-align: right;
+}
+.info-links {
+	list-style-type: none;
+}
+.social-links {
+	list-style-type: none;
+	margin-bottom: 3em;
+}
+aside.more-info img {
+	width: 200px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: none;
+	padding: 1em;
+}
+.poem {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-column-count: 3;
+}
+.poem {
+	font-size: 14px;
+	text-align: center;
+	list-style-type: none;
+	line-height: 150%;	
+	border: solid 1px black;
+}
+footer.page-footer {
+	background-image: url('images/hiking-the-sand-dunes.jpg');
+	background-size: cover;
+	font-size: 14px;
+	text-align: justify;
+	margin-top: 2em;
 }
